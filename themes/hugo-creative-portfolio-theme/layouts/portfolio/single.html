@@ -1,0 +1,24 @@
+{{ define "main" }}
+<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
+  {{ partial "mobile_nav_toggle.html" . }}
+  <div class="row">
+    <div class="col-lg-8">
+      <div class="content-column-content">
+        <button type="button" onclick="goBack()" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+        <h1>{{ .Title }}</h1>
+         <img src="{{.Params.image | absURL}}" alt="" class="img-responsive">
+         <p class="text-center">{{.Params.size}}</p>
+         {{ .Content }}
+         <p class="text-center">{{.Params.price}}</p>
+         {{ if and (isset .Params "price") .Params.price }}
+         <button type="button" class="btn btn-default">{{.Params.price}}</button>
+         {{ else }}
+         <button type="button" class="btn btn-default">Sold</button>
+         {{end}}
+         <p class="text-center">fermer</p>
+         
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
