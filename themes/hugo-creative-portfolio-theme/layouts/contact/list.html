@@ -6,10 +6,8 @@
       <div class="content-column-content">
          <h1>{{ .Title }}</h1>
          {{ .Content }}
-         <h4>Retrouvez la sur les réseaux:</h4>
-         {{ partial "social_buttons_in_contact.html" . }}
          {{ with .Site.Params.email }}
-         <h4>Un petit message ? N'hésitez pas à lui écrire :)</h4>
+         <h4></h4>
          <form id="contact-form" class="contact-form form" method="post" action="https://formspree.io/{{ . }}">
            <div class="controls">
              <div class="form-group">
@@ -21,7 +19,7 @@
                <input type="email" name="email" id="email" required="required" class="form-control">
              </div>
              <div class="form-group">
-               <label for="message">Votre message pour l'artiste *</label>
+               <label for="message">Votre message *</label>
                <textarea rows="4" name="message" id="message" required="required" class="form-control"></textarea>
              </div>
              <div>
@@ -30,6 +28,8 @@
            </div>
          </form>
          {{ end }}
+         <h4>Sur les réseaux:</h4>
+         {{ partial "social_buttons_in_contact.html" . }}
       </div>
     </div>
   </div>
