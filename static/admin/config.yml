@@ -23,7 +23,7 @@ collections:
     name: 'tableau'
     folder: 'content/portfolio'
     create: true
-    slug: '{{year}}'
+    slug: '{{year}}{{slug}}'
     editor:
       preview: true
     fields:
@@ -39,5 +39,7 @@ collections:
           - {label: 'Largeur', name: 'width', widget: 'number', valueType: 'int'}
       - {label: 'Série', name: 'serie', widget: 'string'}
       - {label: 'Techniques', name: 'technics', widget: 'list'}
-      - {label: 'Année', name: 'year', widget: 'datetime', default: '', dateFormat: 'YYYY', timeFormat: '', format: 'LLL'}
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - {label: 'Année', name: 'year', widget: 'datetime', default: '', dateFormat: 'YYYY', format: 'L'}
+      - {label: 'Mention Vendu', name: 'sold', widget: 'boolean',  default: false}
+      - {label: 'Prix', name: 'price', widget: 'number', valueType: 'int'}
+      - {label: 'Corps de page', name: 'body', widget: 'markdown' }
