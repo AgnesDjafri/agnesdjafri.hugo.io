@@ -6,32 +6,38 @@
       <div class="content-column-content">
         <button type="button" onclick="goBack()" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
         <h1>{{ .Title }}</h1>
-        {{ if .Params.serie }}
-        <button type="button" class="btn btn-default">{{.Params.serie }}</button>
-        {{end}}
-        {{ if .Params.data.year }}
-        <button type="button" class="btn btn-default">{{.Params.data.year }}</button>
-        {{end}}
+
         <img src="{{.Params.image | absURL}}" alt="" class="img-responsive">
          
         {{ if .Params.data }}
         <table class="table">
-          {{ if .Params.data.sold }}
+         
+          {{ if .Params.serie }}
            <tr>
-              <td>{{.Params.data.height}} x {{.Params.data.width}}</td>
+              <td> Série : {{.Params.serie }}</td>
            </tr>
           {{end}}
           {{ if .Params.data.technics }}
            <tr>
-              <td>{{ .Params.data.technics }}</td>
+              <td> Tags: 
+                {{ range .Params.data.technics }}
+                /{{ . }}
+                {{ end }}
+              </td>
            </tr>
           {{end}}
+          {{ if .Params.data.height}}
+           <tr>
+              <td>Dimensions : {{.Params.data.height}} x {{.Params.data.width}} cm</td>
+           </tr>
+          {{end}}
+          
           <tr>
             <td>
               {{ if .Params.data.sold }}
-              <button type="button" class="btn btn-default">Sold</button>
+              <button type="button" class="btn btn-default">Vendu</button>
               {{ else if .Params.data.price }}
-                {{.Params.data.price}}
+                Prix : {{.Params.data.price}}€
               {{end}}
             </td>
           </tr>
