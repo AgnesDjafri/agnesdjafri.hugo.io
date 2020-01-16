@@ -42,3 +42,22 @@ collections:
       - {label: 'Mention Vendu', name: 'sold', widget: 'boolean',  default: false}
       - {label: 'Prix', name: 'price', widget: 'number', valueType: 'int'}
       - {label: 'Corps de page', name: 'body', widget: 'markdown' }
+  - label: 'Pages'
+    name: 'pages'
+    files:
+      - file: 'content/about/_index.md'
+        label: "Biographie"
+        name: "bio"
+        fields:
+          - { label: 'Brouillon', name: 'draft', widget: 'boolean', default: true}
+          - {label: "Titre", name: title, widget: string}
+          - {label: "Corps de texte", name: body, widget: markdown}
+      - file: 'content/contact/_index.md'
+        label: 'Contact'
+        name: 'contact'
+        fields:
+          - { label: 'Brouillon', name: 'draft', widget: 'boolean', default: true}
+          - {label: "Titre", name: title, widget: string}
+          - {label: "Corps de texte", name: body, widget: markdown}
+
+      
