@@ -1,12 +1,8 @@
-+++
-title = ""
-date = ""
-weight = 0 
-draft = true
-
-image = "img/uploads/placeholder.png"
-showonlyimage = true
-keywords = ""
-size = ""
-price = ""
-+++
+---
+title: "{{ replace .Name "-" " " | title }}"
+date: {{ .Date }}
+draft: true
+showonlyimage: true
+weight: 0 
+---
+ <!--more-->

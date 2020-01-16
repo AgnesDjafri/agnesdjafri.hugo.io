@@ -7,18 +7,18 @@ logo_url: https://agnesdjafri.com/img/logo.png
 media_folder: static/img/uploads
 public_folder: /img/uploads
 collections:
-  - label: 'Work'
-    name: 'work'
-    folder: 'content/portfolio'
+  - label: 'Page'
+    name: 'page'
+    folder: 'content/'
     create: true
     slug: '{{year}}{{slug}}'
     editor:
-      preview: false
+      preview: true
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Brouillon', name: 'draft', widget: 'boolean', default: true}
+      - { label: 'Date de publication', name: 'date', widget: 'datetime' }
+      - { label: 'Titre', name: 'title', widget: 'string' }
+      - { label: 'Corps de page', name: 'body', widget: 'markdown' }
   - label: 'Tableau'
     name: 'tableau'
     folder: 'content/portfolio'
@@ -28,7 +28,6 @@ collections:
       preview: true
     fields:
       - { label: 'Brouillon', name: 'draft', widget: 'boolean', default: true}
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Titre', name: 'title', widget: 'string' }
       - { label: 'Image', name: 'image',  widget: 'image',  default: '/uploads/placeholder.jpg'}
       - label: 'Dimensions'

@@ -7,16 +7,24 @@
         <button type="button" onclick="goBack()" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
         <h1>{{ .Title }}</h1>
          <img src="{{.Params.image | absURL}}" alt="" class="img-responsive">
-         <p class="text-center">{{.Params.size}}</p>
-         {{ .Content }}
-         <p class="text-center">{{.Params.price}}</p>
-         {{ if and (isset .Params "price") .Params.price }}
-         <button type="button" class="btn btn-default">{{.Params.price}}</button>
-         {{ else }}
-         <button type="button" class="btn btn-default">Sold</button>
-         {{end}}
-         <p class="text-center">fermer</p>
          
+         <button type="button" class="btn btn-default">{{.Params.dimensions.height}} x {{.Params.dimensions.width}} cm</button>
+         <button type="button" class="btn btn-default">{{.Params.year}}</button>
+             
+         {{ if .Params.sold }}
+         <button type="button" class="btn btn-default">Sold</button>
+         
+         {{ else if and (isset .Params "price") .Params.price }}
+         <button type="button" class="btn btn-default">{{.Params.price}}</button>
+         
+         {{end}}
+         
+         {{ range .Params.technics }}
+         <button type="button" class="btn btn-default"></button>
+        {{ end }} 
+          <!--more-->
+         {{ .Content }}
+               
       </div>
     </div>
   </div>
