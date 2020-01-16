@@ -6,25 +6,38 @@
       <div class="content-column-content">
         <button type="button" onclick="goBack()" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
         <h1>{{ .Title }}</h1>
-         <img src="{{.Params.image | absURL}}" alt="" class="img-responsive">
+        {{ if .Params.serie }}
+        <button type="button" class="btn btn-default">{{.Params.serie }}</button>
+        {{end}}
+        {{ if .Params.data.year }}
+        <button type="button" class="btn btn-default">{{.Params.data.year }}</button>
+        {{end}}
+        <img src="{{.Params.image | absURL}}" alt="" class="img-responsive">
          
-         <button type="button" class="btn btn-default">{{.Params.dimensions.height}} x {{.Params.dimensions.width}} cm</button>
-         <button type="button" class="btn btn-default">{{.Params.year}}</button>
-             
-         {{ if .Params.sold }}
-         <button type="button" class="btn btn-default">Sold</button>
-         
-         {{ else if and (isset .Params "price") .Params.price }}
-         <button type="button" class="btn btn-default">{{.Params.price}}</button>
-         
-         {{end}}
-         
-         {{ range .Params.technics }}
-         <button type="button" class="btn btn-default"></button>
-        {{ end }} 
-          <!--more-->
-         {{ .Content }}
-               
+        {{ if .Params.data }}
+        <table class="table">
+          {{ if .Params.data.sold }}
+           <tr>
+              <td>{{.Params.data.height}} x {{.Params.data.width}}</td>
+           </tr>
+          {{end}}
+          {{ if .Params.data.technics }}
+           <tr>
+              <td>{{ .Params.data.technics }}</td>
+           </tr>
+          {{end}}
+          <tr>
+            <td>
+              {{ if .Params.data.sold }}
+              <button type="button" class="btn btn-default">Sold</button>
+              {{ else if .Params.data.price }}
+                {{.Params.data.price}}
+              {{end}}
+            </td>
+          </tr>
+        </table>
+        {{end}}
+        {{ .Content }}       
       </div>
     </div>
   </div>
