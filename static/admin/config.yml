@@ -12,11 +12,12 @@ collections:
     folder: "content/portfolio"
     create: true
     slug: "{{year}}{{slug}}"
-    filter: {field: "showonlyimage", value: "true"}
+    filter: {field: "pieceType", value: "art"}
     editor:
       preview: true
     fields:
       - {label: "Brouillon", name: "draft", widget: "boolean", default: true}
+      - {label: "LayoutType", name: "pieceType", widget: "hidden",  default: "art"}
       - {label: "Titre", name: "title", widget: "string" }
       - {label: "Série", name: "serie", widget: "string"}
       - {label: "ShowImage", name: "showonlyimage", widget: "hidden",  default: true}
@@ -37,11 +38,12 @@ collections:
     folder: "content/portfolio"
     create: true
     slug: "{{year}}{{slug}}"
-    filter: {field: "showonlyimage", value: "false"}
+    filter: {field: "pieceType", value: "text"}
     editor:
       preview: true
     fields:
       - {label: "Brouillon", name: "draft", widget: "boolean", default: true}
+      - {label: "LayoutType", name: "pieceType", widget: "hidden",  default: "text"}
       - {label: "Titre", name: "title", widget: "string" }
       - {label: "Série", name: "serie", widget: "string"}
       - {label: "NoImage", name: "showonlyimage", widget: "hidden",  default: false}
