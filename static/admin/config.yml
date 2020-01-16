@@ -16,23 +16,23 @@ collections:
     editor:
       preview: true
     fields:
-      - {label: "Brouillon", name: "draft", widget: "boolean", default: true}
+      - {label: "Brouillon", name: "draft", widget: "boolean", default: true, hint: "Une page en brouillon (signalé en bleu) ne se pas visible sur le site"}
       - {label: "LayoutType", name: "pieceType", widget: "hidden",  default: "art"}
       - {label: "Titre", name: "title", widget: "string" }
-      - {label: "Série", name: "serie", widget: "string"}
+      - {label: "Série", name: "serie", widget: "string", required: false}
       - {label: "ShowImage", name: "showonlyimage", widget: "hidden",  default: true}
       - {label: "Image", name: "image",  widget: "image",  default: "/uploads/placeholder.jpg"}
-      - label: "Dimensions"
-        name: "dimensions"
+      - label: "Infos"
+        name: "data"
         widget: "object"
         fields:
           - {label: "Hauteur", name: "height", widget: "number", valueType: "int"}
           - {label: "Largeur", name: "width", widget: "number", valueType: "int"}
-      - {label: "Techniques", name: "technics", widget: "list"}
-      - {label: "Année", name: "year", widget: "datetime", default: "", dateFormat: "YYYY", format: "L"}
-      - {label: "Mention Vendu", name: "sold", widget: "boolean",  default: false}
-      - {label: "Prix", name: "price", widget: "number", valueType: "int"}
-      - {label: "Corps de page", name: "body", widget: "markdown" }
+          - {label: "Année", name: "year", widget: "datetime", default: "", dateFormat: "YYYY", format: "L"}
+          - {label: "Techniques", name: "technics", widget: "list"}
+          - {label: "Mention Vendu", name: "sold", widget: "boolean",  default: false}
+          - {label: "Prix", name: "price", widget: "number", valueType: "int"}
+      - {label: "Corps de page", name: "body", widget: "markdown", required: false}
   - label: "Texte"
     name: "textpiece"
     folder: "content/portfolio"
@@ -42,12 +42,12 @@ collections:
     editor:
       preview: true
     fields:
-      - {label: "Brouillon", name: "draft", widget: "boolean", default: true}
+      - {label: "Brouillon", name: "draft", widget: "boolean", default: true, hint: "Une page en brouillon (signalé en bleu) ne se pas visible sur le site"}
       - {label: "LayoutType", name: "pieceType", widget: "hidden",  default: "text"}
       - {label: "Titre", name: "title", widget: "string" }
-      - {label: "Série", name: "serie", widget: "string"}
+      - {label: "Série", name: "serie", widget: "string", required: false}
       - {label: "NoImage", name: "showonlyimage", widget: "hidden",  default: false}
-      - {label: "Corps de page", name: "body", widget: "markdown" }
+      - {label: "Corps de page", name: "body", widget: "markdown", required: false }
   - label: "Page (WIP)"
     name: "page"
     folder: "content/actus"
@@ -56,10 +56,10 @@ collections:
     editor:
       preview: true
     fields:
-      - { label: "Brouillon", name: "draft", widget: "boolean", default: true}
+      - { label: "Brouillon", name: "draft", widget: "boolean", default: true, hint: "Une page en brouillon (signalé en bleu) ne se pas visible sur le site"}
       - { label: "Date de publication", name: "date", widget: "datetime" }
       - { label: "Titre", name: "title", widget: "string" }
-      - { label: "Corps de page", name: "body", widget: "markdown" }
+      - { label: "Corps de page", name: "body", widget: "markdown", required: false }
   - label: "Pages menu"
     name: "pages"
     files:
@@ -67,14 +67,14 @@ collections:
         label: "Biographie"
         name: "bio"
         fields:
-          - {label: "Brouillon", name: "draft", widget: "boolean", default: true}
+          - {label: "Brouillon", name: "draft", widget: "boolean", default: true, hint: "Une page en brouillon (signalé en bleu) ne se pas visible sur le site"}
           - {label: "Titre", name: title, widget: string}
-          - {label: "Corps de texte", name: body, widget: markdown}
+          - {label: "Corps de texte", name: body, widget: markdown, required: false}
       - file: "content/contact/_index.md"
         label: "Contact"
         name: "contact"
         fields:
-          - {label: "Brouillon", name: "draft", widget: "boolean", default: true}
+          - {label: "Brouillon", name: "draft", widget: "boolean", default: true, hint: "Une page en brouillon (signalé en bleu) ne se pas visible sur le site"}
           - {label: "Titre", name: title, widget: string}
-          - {label: "Corps de texte", name: body, widget: markdown}
+          - {label: "Corps de texte", name: body, widget: markdown, required: false}
       
