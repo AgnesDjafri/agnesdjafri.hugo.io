@@ -7,9 +7,45 @@ logo_url: https://agnesdjafri.com/img/logo.png
 media_folder: static/img/uploads
 public_folder: /img/uploads
 collections:
-  - label: "Page"
+  - label: "Tableau"
+    name: "artpiece"
+    folder: "content/portfolio"
+    create: true
+    slug: "{{year}}{{slug}}"
+    editor:
+      preview: true
+    fields:
+      - {label: "Brouillon", name: "draft", widget: "boolean", default: true}
+      - {label: "Titre", name: "title", widget: "string" }
+      - {label: "Série", name: "serie", widget: "string"}
+      - {label: "Image", name: "image",  widget: "image",  default: "/uploads/placeholder.jpg"}
+      - label: "Dimensions"
+        name: "dimensions"
+        widget: "object"
+        fields:
+          - {label: "Hauteur", name: "height", widget: "number", valueType: "int"}
+          - {label: "Largeur", name: "width", widget: "number", valueType: "int"}
+      - {label: "Techniques", name: "technics", widget: "list"}
+      - {label: "Année", name: "year", widget: "datetime", default: "", dateFormat: "YYYY", format: "L"}
+      - {label: "Mention Vendu", name: "sold", widget: "boolean",  default: false}
+      - {label: "Prix", name: "price", widget: "number", valueType: "int"}
+      - {label: "Corps de page", name: "body", widget: "markdown" }
+  - label: "Texte"
+    name: "textpiece"
+    folder: "content/portfolio"
+    create: true
+    slug: "{{year}}{{slug}}"
+    editor:
+      preview: true
+    fields:
+      - {label: "Brouillon", name: "draft", widget: "boolean", default: true}
+      - {label: "Titre", name: "title", widget: "string" }
+      - {label: "Série", name: "serie", widget: "string"}
+      - {label: "TextPiece", name: "showonlyimage", widget: "hidden",  default: false}
+      - {label: "Corps de page", name: "body", widget: "markdown" }
+  - label: "Page (WIP)"
     name: "page"
-    folder: "content/"
+    folder: "content/actus"
     create: true
     slug: "{{year}}{{slug}}"
     editor:
@@ -19,30 +55,7 @@ collections:
       - { label: "Date de publication", name: "date", widget: "datetime" }
       - { label: "Titre", name: "title", widget: "string" }
       - { label: "Corps de page", name: "body", widget: "markdown" }
-  - label: "Tableau"
-    name: "tableau"
-    folder: "content/portfolio"
-    create: true
-    slug: "{{year}}{{slug}}"
-    editor:
-      preview: true
-    fields:
-      - { label: "Brouillon", name: "draft", widget: "boolean", default: true}
-      - { label: "Titre", name: "title", widget: "string" }
-      - { label: "Image", name: "image",  widget: "image",  default: "/uploads/placeholder.jpg"}
-      - label: "Dimensions"
-        name: "dimensions"
-        widget: "object"
-        fields:
-          - {label: "Hauteur", name: "height", widget: "number", valueType: "int"}
-          - {label: "Largeur", name: "width", widget: "number", valueType: "int"}
-      - {label: "Série", name: "serie", widget: "string"}
-      - {label: "Techniques", name: "technics", widget: "list"}
-      - {label: "Année", name: "year", widget: "datetime", default: "", dateFormat: "YYYY", format: "L"}
-      - {label: "Mention Vendu", name: "sold", widget: "boolean",  default: false}
-      - {label: "Prix", name: "price", widget: "number", valueType: "int"}
-      - {label: "Corps de page", name: "body", widget: "markdown" }
-  - label: "Pages"
+  - label: "Pages menu"
     name: "pages"
     files:
       - file: "content/about/_index.md"
@@ -59,17 +72,4 @@ collections:
           - {label: "Brouillon", name: "draft", widget: "boolean", default: true}
           - {label: "Titre", name: title, widget: string}
           - {label: "Corps de texte", name: body, widget: markdown}
-  - label: "Configs"
-    name: "configs"
-    files:
-      - file: "config.toml"
-        label: "Configuration du site"
-        name: "siteconfig"
-        fields:
-          - {label: "URL", name: "baseurl", default: "https://agnesdjafri.com/"}
-          - {label: "Titre", name: title, widget: string, default: "Agnes Djafri"}
-          - {label: "Theme", name: theme, widget: hidden, default: "hugo-creative-portfolio-theme"}
-          - {label: "Language", name: "languageCode", widget: "hidden", default: "fr"}
-          - {label: "Disqus", name: disqusShortname, widget: string, default: ""}
-          - {label: "GAnalytics", name: googleAnalytics, widget: string, default: ""}
       
