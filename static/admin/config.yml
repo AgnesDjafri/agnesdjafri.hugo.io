@@ -12,12 +12,14 @@ collections:
     folder: "content/portfolio"
     create: true
     slug: "{{year}}{{slug}}"
+    filter: {field: "showonlyimage", value: "true"}
     editor:
       preview: true
     fields:
       - {label: "Brouillon", name: "draft", widget: "boolean", default: true}
       - {label: "Titre", name: "title", widget: "string" }
       - {label: "Série", name: "serie", widget: "string"}
+      - {label: "ShowImage", name: "showonlyimage", widget: "hidden",  default: true}
       - {label: "Image", name: "image",  widget: "image",  default: "/uploads/placeholder.jpg"}
       - label: "Dimensions"
         name: "dimensions"
@@ -35,13 +37,14 @@ collections:
     folder: "content/portfolio"
     create: true
     slug: "{{year}}{{slug}}"
+    filter: {field: "showonlyimage", value: "false"}
     editor:
       preview: true
     fields:
       - {label: "Brouillon", name: "draft", widget: "boolean", default: true}
       - {label: "Titre", name: "title", widget: "string" }
       - {label: "Série", name: "serie", widget: "string"}
-      - {label: "TextPiece", name: "showonlyimage", widget: "hidden",  default: false}
+      - {label: "NoImage", name: "showonlyimage", widget: "hidden",  default: false}
       - {label: "Corps de page", name: "body", widget: "markdown" }
   - label: "Page (WIP)"
     name: "page"
