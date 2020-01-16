@@ -1,13 +1,14 @@
 +++
 date = "2016-11-05T21:05:33+05:30"
 title = "Biographie"
+draft = true
 +++
 
 On vous présente **Agnès Djafri**. Paragraphe 1 - ça se présente ...
 
 Paragraphe 2 - ça fait de l'humour ...
 
-![C'est moi][1]
+![C'est elle][1]
 
 Paragraphe 3 - ça blablate, ça blablate !
 
