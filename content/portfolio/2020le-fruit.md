@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 pieceType: art
 title: Le Fruit
 serie: La vie est belle
@@ -19,3 +19,5 @@ data:
 <!--more-->
 
 **Intention:**
+
+WIP
