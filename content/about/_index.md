@@ -1,5 +1,5 @@
 +++
-date = "2020-01-26T21:05:33+05:30"
+date = "2020-01-22T21:05:33+05:30"
 title = "Biographie"
 draft = false
 +++
