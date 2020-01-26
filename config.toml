@@ -37,9 +37,9 @@ googleAnalytics = ""
   url = "portfolio/"
   home = true
 
- # [[params.navlinks]]
- # name = "Biographie"
- # url = "about/"
+  [[params.navlinks]]
+  name = "Biographie"
+  url = "about/"
 
  # [[params.navlinks]]
  # name = "Actualité"
@@ -56,5 +56,5 @@ googleAnalytics = ""
   [params.social]
   instagram     = "https://www.instagram.com/agnesdjafri/"
   whatsapp      = "https://wa.me/590690502805"
-  facebook      = "full page or profile url in facebook"
+  facebook      = "facebook.com/agnesdjafriart"
   email         = "contact@agnesdjafri.com"

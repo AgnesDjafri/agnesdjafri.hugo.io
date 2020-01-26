@@ -1,7 +1,7 @@
 +++
-date = "2016-11-05T21:05:33+05:30"
+date = "2020-01-26T21:05:33+05:30"
 title = "Biographie"
-draft = true
+draft = false
 +++
 
 On vous présente **Agnès Djafri**. Paragraphe 1 - ça se présente ...
