@@ -23,17 +23,17 @@ collections:
       - {label: "Série", name: "serie", widget: "string", required: false}
       - {label: "ShowImage", name: "showonlyimage", widget: "hidden",  default: true}
       - {label: "Image", name: "image",  widget: "image"}
- #     - label: "Infos"
- #       name: "data"
- #       widget: "object"
- #       fields:
- #         - {label: "Hauteur", name: "height", widget: "number", valueType: "int", required: false}
- #         - {label: "Largeur", name: "width", widget: "number", valueType: "int", required: false}
- #         - {label: "Année", name: "year", widget: "datetime", default: "", dateFormat: "YYYY", format: "L", required: false}
- #         - {label: "Techniques", name: "technics", widget: "list", required: false}
- #         - {label: "Mention Vendu", name: "sold", widget: "boolean",  default: false, required: false}
- #         - {label: "Prix", name: "price", widget: "number", valueType: "int", required: false}
       - {label: "Corps de page", name: "body", widget: "markdown", required: false}
+      #     - label: "Infos"
+      #       name: "data"
+      #       widget: "object"
+      #       fields:
+      #         - {label: "Hauteur", name: "height", widget: "number", valueType: "int", required: false}
+      #         - {label: "Largeur", name: "width", widget: "number", valueType: "int", required: false}
+      #         - {label: "Année", name: "year", widget: "datetime", default: "", dateFormat: "YYYY", format: "L", required: false}
+      #         - {label: "Techniques", name: "technics", widget: "list", required: false}
+      #         - {label: "Mention Vendu", name: "sold", widget: "boolean",  default: false, required: false}
+      #         - {label: "Prix", name: "price", widget: "number", valueType: "int", required: false}  
   - label: "Texte"
     name: "textpiece"
     folder: "content/portfolio"
@@ -68,14 +68,14 @@ collections:
         label: "Biographie"
         name: "bio"
         fields:
-          - {label: "Brouillon", name: "draft", widget: "hidden", default: false, hint: "Une page en brouillon (signalé en bleu) ne se pas visible sur le site"}
+          - {label: "Brouillon", name: "draft", widget: "boolean", default: false, hint: "Une page en brouillon (signalé en bleu) ne se pas visible sur le site"}
           - {label: "Titre", name: title, widget: string}
           - {label: "Corps de texte", name: body, widget: markdown, required: false}
       - file: "content/contact/_index.md"
         label: "Contact"
         name: "contact"
         fields:
-          - {label: "Brouillon", name: "draft", widget: "hidden", default: false, hint: "Une page en brouillon (signalé en bleu) ne se pas visible sur le site"}
+          - {label: "Brouillon", name: "draft", widget: "boolean", default: false, hint: "Une page en brouillon (signalé en bleu) ne se pas visible sur le site"}
           - {label: "Titre", name: title, widget: string}
           - {label: "Corps de texte", name: body, widget: markdown, required: false}
       
