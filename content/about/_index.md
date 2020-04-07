@@ -1,14 +1,13 @@
-+++
-date = "2020-01-22T21:05:33+05:30"
-title = "Biographie"
-draft = false
-+++
-
+---
+date: '2020-01-22T21:05:33+05:30'
+draft: false
+title: Biographie
+---
 On vous présente **Agnès Djafri**. Paragraphe 1 - ça se présente ...
 
-Paragraphe 2 - ça fait de l'humour ...
+Paragraphe 2 - ça fait de l'humour :) ...
 
-![C'est elle][1]
+![C'est elle](/img/uploads/2019-portaitpalette.jpg)
 
 Paragraphe 3 - ça blablate, ça blablate !
 
@@ -21,5 +20,3 @@ Paragraphe 3 - ça blablate, ça blablate !
 
 * 2000 - ...
 * 2020 - ...
-
-[1]: /img/uploads/2019-portaitpalette.jpg
