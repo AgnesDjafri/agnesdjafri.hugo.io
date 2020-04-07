@@ -68,14 +68,14 @@ collections:
         label: "Biographie"
         name: "bio"
         fields:
-          - {label: "Brouillon", name: "draft", widget: "boolean", default: false, hint: "Une page en brouillon (signalé en bleu) ne se pas visible sur le site"}
+          - {label: "Brouillon", name: "draft", widget: "hidden", default: false, hint: "Une page en brouillon (signalé en bleu) ne se pas visible sur le site"}
           - {label: "Titre", name: title, widget: string}
           - {label: "Corps de texte", name: body, widget: markdown, required: false}
       - file: "content/contact/_index.md"
         label: "Contact"
         name: "contact"
         fields:
-          - {label: "Brouillon", name: "draft", widget: "boolean", default: false, hint: "Une page en brouillon (signalé en bleu) ne se pas visible sur le site"}
+          - {label: "Brouillon", name: "draft", widget: "hidden", default: false, hint: "Une page en brouillon (signalé en bleu) ne se pas visible sur le site"}
           - {label: "Titre", name: title, widget: string}
           - {label: "Corps de texte", name: body, widget: markdown, required: false}
       
