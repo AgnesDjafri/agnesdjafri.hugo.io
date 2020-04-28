@@ -1,8 +1,8 @@
 ---
 draft: false
 pieceType: art
-title: Veille
+title: Pause verticale
 showonlyimage: true
-image: /img/uploads/2018veilleacryliquesurtoile30x30.jpg
+image: /img/uploads/2018pauseverticaleacryliquesurtoile30x30.jpg
 ---
 2018 - Technique mixte média - Acrylique sur toile - 30x30 cm
