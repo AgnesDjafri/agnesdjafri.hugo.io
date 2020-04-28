@@ -1,8 +1,8 @@
 ---
 draft: false
 pieceType: art
-title: Chercher le chemin
+title: Veille
 showonlyimage: true
-image: /img/uploads/2018chercherlecheminacryliquesurtoile50x50.jpg
+image: /img/uploads/2018veilleacryliquesurtoile30x30.jpg
 ---
-2018 - Technique mixte média - Acrylique sur toile - 50x50 cm
+2018 - Technique mixte média - Acrylique sur toile - 30x30 cm
