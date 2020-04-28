@@ -1,8 +1,8 @@
 ---
 draft: false
 pieceType: art
-title: Se découvrir à soi
+title: Chercher le chemin
 showonlyimage: true
-image: /img/uploads/2018sedecouvrirasoiacryliquesurtoile40x40.jpg
+image: /img/uploads/2018chercherlecheminacryliquesurtoile50x50.jpg
 ---
-2018 - Technique mixte média - Acrylique sur toile - 40x40 cm
+2018 - Technique mixte média - Acrylique sur toile - 50x50 cm
