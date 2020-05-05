@@ -3,13 +3,11 @@ date: 2020-01-22T15:35:33.000Z
 draft: false
 title: Biographie
 ---
-Après un bref passage en école d’art, confortant son goût pour la couleur etle trait, puis un long parcours dans la communication, Agnès Djafri s’affirme au travers d'écritures, de techniques mixtes.
+Un bref passage en école d’art puis, un long parcours dans la communication confortent son goût prononcé pour la couleur et le trait. 
 
-L’artiste mêle le graphique au pictural pour livrer une production originale s’inspirant des techniques du pop art, de l’urban art et des couleurs entêtantes de son environnement caribéen. 
+Agnès Djafri s’affirme au travers des techniques mixtes en mêlant le graphisme au pictural, le texte au dessin, et souvent, l'un inspirant l'autre, se mêlent dans une réécriture enchanteresse. 
 
-Le texte précède le dessin et souvent, l'un inspirant l'autre, se mêlent dans une réécriture enchanteresse. 
-
-En 2017, un retour aux sources comme une fulgurance, une évidence et elle décide de relancer sa pratique picturale en participant à la Pool Art Fair 2018. 
+En 2017, comme une fulgurance, une évidence, elle décide de relancer sa pratique picturale en participant à la Pool Art Fair 2018. 
 
 #### Expositions collectives récentes
 
@@ -23,7 +21,7 @@ En 2017, un retour aux sources comme une fulgurance, une évidence et elle déci
 
 #### Démarche
 
-Que ce soit au travers des portraits très expressifs ou de la série «Po chapé», l’artiste cherche une voie, celle du milieu, celle qui nous permet de voir le verre à moitié plein tout en acceptant la partie vide.
+Que ce soit au travers des portraits très expressifs ou de la série «Po chapé», l’artiste cherche une voie, celle du milieu, celle de l'équilibre, celle qui nous permet de voir le verre à moitié plein tout en acceptant la partie vide.
 
 Ses tableaux sont comme des pistes, des portes entre-ouvertes.
 
@@ -33,7 +31,7 @@ Stylo à bille, crayon. Dessiner, écrire, encore et encore comme un long poème
 
 Parallèlement, l’un nourrissant l’autre, la recherche plastique en crayonné croise celle d’images photographiques. Puis, vient le moment de la réécriture par le détournement, avec l’outil ordinateur = support 2.
 
-Le mariage de ces 2 médiums est imprimé sous forme d’esquisse métisse prête à recevoir le liquide acrylique exquis et la caresse du pinceau = support 3.
+Le mariage de ces 2 médiums est imprimé sous forme d’esquisse métisse prête à recevoir le liquide acrylique exquis = support 3.
 
 Le tout transfigure une notion multidimensionnelle sous-tendant des questionnements universels sur l’homme, son environnement et l’invisible.
 
