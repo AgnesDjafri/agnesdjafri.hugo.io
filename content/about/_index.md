@@ -3,11 +3,11 @@ date: 2020-01-22T15:35:33.000Z
 draft: false
 title: Biographie
 ---
-Après un bref passage en école d’art, confortant son goût pour la couleur et un long parcours dans la communication, Agnès Djafri s’affirme au travers d'écritures, de techniques mixtes.
+Après un bref passage en école d’art, confortant son goût pour la couleur etle trait, puis un long parcours dans la communication, Agnès Djafri s’affirme au travers d'écritures, de techniques mixtes.
 
 L’artiste mêle le graphique au pictural pour livrer une production originale s’inspirant des techniques du pop art, de l’urban art et des couleurs entêtantes de son environnement caribéen. 
 
-Le texte précède le dessin et souvent, l'un inspirant l'autre, se mêlent dans une réécriture enchanteresque. 
+Le texte précède le dessin et souvent, l'un inspirant l'autre, se mêlent dans une réécriture enchanteresse. 
 
 En 2017, un retour aux sources comme une fulgurance, une évidence et elle décide de relancer sa pratique picturale en participant à la Pool Art Fair 2018. 
 
