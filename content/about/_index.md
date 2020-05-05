@@ -1,15 +1,15 @@
 ---
-date: 2020-01-22T21:05:33+05:30
+date: 2020-01-22T15:35:33.000Z
 draft: false
 title: Biographie
 ---
-Née en 1968 à Nice, juste à temps pour la révolution !
-
-Agnès Djafri opère en 2017, un retour aux sources comme une fulgurance, une évidence et décide de relancer sa pratique picturale en participant à la Pool Art Fair 2018.
+Après un bref passage en école d’art, confortant son goût pour la couleur et un long parcours dans la communication, Agnès Djafri s’affirme au travers d'écritures, de techniques mixtes.
 
 L’artiste mêle le graphique au pictural pour livrer une production originale s’inspirant des techniques du pop art, de l’urban art et des couleurs entêtantes de son environnement caribéen. 
 
-Après un court passage en école d’art, confortant son goût pour la couleur et son parcours dans la communication, elle s’affirme au travers de techniques mixtes.
+Le texte précède le dessin et souvent, l'un inspirant l'autre, se mêlent dans une réécriture enchanteresque. 
+
+En 2017, un retour aux sources comme une fulgurance, une évidence et elle décide de relancer sa pratique picturale en participant à la Pool Art Fair 2018. 
 
 #### Expositions collectives récentes
 
@@ -23,9 +23,9 @@ Après un court passage en école d’art, confortant son goût pour la couleur 
 
 #### Démarche
 
-Que ce soit au travers des portraits très expressifs ou de la série «Po chapé», l’artiste cherche une voie, celle du milieu, celle qui nous fait voir le verre à moitié plein tout en acceptant la partie vide.
+Que ce soit au travers des portraits très expressifs ou de la série «Po chapé», l’artiste cherche une voie, celle du milieu, celle qui nous permet de voir le verre à moitié plein tout en acceptant la partie vide.
 
-Des tableaux comme des pistes, des portes entre-ouvertes en partage avec l’autre.
+Ses tableaux sont comme des pistes, des portes entre-ouvertes.
 
 #### Technique
 
