@@ -7,7 +7,7 @@ On vous présente **Agnès Djafri**. Paragraphe 1 - ça se présente ...
 
 Paragraphe 2 - ça fait de l'humour :) ...
 
-![C'est elle](/img/uploads/2019-portaitpalette.jpg)
+![C'est elle](/img/uploads/2019-portaitpalette.jpg?nf_resize=fit&w=1024&h=512)
 
 Paragraphe 3 - ça blablate, ça blablate !
 
