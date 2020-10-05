@@ -7,15 +7,7 @@ Un bref passage en école d’art puis, un long parcours dans la communication c
 
 Agnès Djafri s’affirme au travers des techniques mixtes en mêlant le graphisme au pictural, le texte au dessin, et souvent, l'un inspirant l'autre, se mêlent dans une réécriture enchanteresse. 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-![C'est elle](/img/uploads/2019-portaitpalette.jpg?nf_resize=fit&w=1024&h=512)
-=======
 En 2017, comme une fulgurance, une évidence, elle décide de relancer sa pratique picturale en participant à la Pool Art Fair 2018. 
->>>>>>> 8075a04853586c2764d2c66f812d327943aeb9ae
-=======
-En 2017, comme une fulgurance, une évidence, elle décide de relancer sa pratique picturale en participant à la Pool Art Fair 2018. 
->>>>>>> 8075a04853586c2764d2c66f812d327943aeb9ae
 
 #### Expositions collectives récentes
 
