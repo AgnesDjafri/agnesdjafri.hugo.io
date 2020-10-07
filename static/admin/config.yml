@@ -21,6 +21,7 @@ collections:
       preview: true
     fields:
       - {label: "Brouillon", name: "draft", widget: "hidden", default: false, hint: "Une page en brouillon (signalé en bleu) ne se pas visible sur le site"}
+      - {label: "Poids", name: "weight", widget: "number", valueType: "int", default: -100, hint: "Léger en haut, lourd en bas"}
       - {label: "LayoutType", name: "pieceType", widget: "hidden",  default: "art"}
       - {label: "Titre", name: "title", widget: "string" }
       - {label: "Série", name: "serie", widget: "string", required: false}
@@ -47,6 +48,7 @@ collections:
       preview: true
     fields:
       - {label: "Brouillon", name: "draft", widget: "hidden", default: false, hint: "Une page en brouillon (signalé en bleu) ne se pas visible sur le site"}
+      - {label: "Poids", name: "weight", widget: "number", valueType: "int", default: -100, hint: "Léger en haut, lourd en bas"}
       - {label: "LayoutType", name: "pieceType", widget: "hidden",  default: "text"}
       - {label: "Titre", name: "title", widget: "string" }
       - {label: "Série", name: "serie", widget: "string", required: false}
