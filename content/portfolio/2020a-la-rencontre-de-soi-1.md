@@ -1,5 +1,6 @@
 ---
 draft: false
+weight: 1020
 pieceType: art
 title: A la rencontre de soi
 showonlyimage: true
