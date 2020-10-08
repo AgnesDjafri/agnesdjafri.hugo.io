@@ -41,9 +41,9 @@ googleAnalytics = ""
   name = "Biographie"
   url = "about/"
 
- # [[params.navlinks]]
- # name = "Actualité"
- # url = "actus/"
+  [[params.navlinks]]
+  name = "PoolArt2020"
+  url = "actus/"
 
  # [[params.navlinks]]
  # name = "Press"
