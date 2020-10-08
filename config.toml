@@ -43,7 +43,7 @@ googleAnalytics = ""
 
  # [[params.navlinks]]
  # name = "Actualité"
- # url = "events/"
+ # url = "actus/"
 
  # [[params.navlinks]]
  # name = "Press"
