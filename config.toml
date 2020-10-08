@@ -28,7 +28,8 @@ googleAnalytics = ""
   email = "contact@agnesdjafri.com"
   sidebarAbout = [
     "Participe à la Pool Art Fair 2020 !",]
-  [sidebarAbout.extlink]
+  
+  [params.sidelink]
   name = "Participe à la Pool Art Fair 2020 !"
   url = "poolartfair.com"
 

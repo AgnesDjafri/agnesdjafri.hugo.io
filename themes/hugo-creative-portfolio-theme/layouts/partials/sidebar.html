@@ -3,7 +3,7 @@
     <h1 class="sidebar-heading"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
     {{ range .Site.Params.sidebarAbout }}
       <p class="sidebar-p">{{ . | safeHTML }}</p>
-      {{ with .Site.Params.sidebarAbout.extlink }}
+      {{ with .Site.Params.sidelink }}
       <a href="{{ .url }}" class="sidebar-p">{{ .name }}</a>
     {{ end }}
     <ul class="sidebar-menu">
