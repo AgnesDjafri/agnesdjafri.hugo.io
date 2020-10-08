@@ -13,11 +13,6 @@ googleAnalytics = ""
   style = "violet"
   description = "Agnes Djafri - Art Portfolio"
   copyright = "&copy;2019 Agnes Djafri"
-  sidebarAbout = [
-    "Participe à la Pool Art Fair 2020 !",]
-  [params.sidebarAbout.extlink]
-  name = "Participe à la Pool Art Fair 2020 !"
-  url = "poolartfair.com"
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
      # proxy. The form makes a POST request to their servers to send the actual
@@ -31,6 +26,13 @@ googleAnalytics = ""
      # - click the confirm link in the email from www.formspree.io
      # - you're done. Happy mailing!
   email = "contact@agnesdjafri.com"
+  sidebarAbout = [
+    "Participe à la Pool Art Fair 2020 !",]
+  [sidebarAbout.extlink]
+  name = "Participe à la Pool Art Fair 2020 !"
+  url = "poolartfair.com"
+
+  
 
 
   # Nav links in the side bar
