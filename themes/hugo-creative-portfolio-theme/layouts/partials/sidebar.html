@@ -5,6 +5,7 @@
       <p class="sidebar-p">{{ . | safeHTML }}</p>
       {{ with .Site.Params.sidelink }}
       <a href="{{ .url }}" class="sidebar-p">{{ .name }}</a>
+      {{ end }}
     {{ end }}
     <ul class="sidebar-menu">
       {{ range .Site.Params.navlinks }}
