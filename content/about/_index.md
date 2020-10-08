@@ -3,6 +3,9 @@ date: 2020-01-22T15:35:33.000Z
 draft: false
 title: Biographie
 ---
+
+![Photo de Bruno Michaux-Vignes](/img/uploads/2019-portaitpalette.jpg)
+
 Un bref passage en école d’art puis, un long parcours dans la communication confortent son goût prononcé pour la couleur et le trait. 
 
 Agnès Djafri s’affirme au travers des techniques mixtes en mêlant le graphisme au pictural, le texte au dessin, et souvent, l'un inspirant l'autre, se mêlent dans une réécriture enchanteresse. 
@@ -14,6 +17,7 @@ En 2017, comme une fulgurance, une évidence, elle décide de relancer sa pratiq
 * 2018 - Pool Art Fair Guadeloupe
 * 2019 - L’Art s’en Mêle 2019
 * 2019 - Pool Art Fair Guadeloupe
+* 2020 - Pool Art Fair Guadeloupe
 
 #### Exposition solo
 
@@ -35,4 +39,3 @@ Le mariage de ces 2 médiums est imprimé sous forme d’esquisse métisse prêt
 
 Le tout transfigure une notion multidimensionnelle sous-tendant des questionnements universels sur l’homme, son environnement et l’invisible.
 
-![Photo de Bruno Michaux-Vignes](/img/uploads/2019-portaitpalette.jpg)
