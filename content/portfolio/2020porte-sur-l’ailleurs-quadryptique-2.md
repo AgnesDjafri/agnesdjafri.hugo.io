@@ -1,6 +1,6 @@
 ---
 draft: false
-weight: 1011
+weight: 1009
 pieceType: art
 title: Porte sur l’ailleurs Quadryptique 2
 showonlyimage: true
