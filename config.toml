@@ -39,10 +39,6 @@ googleAnalytics = ""
   url = "portfolio/"
   home = true
 
-  [[params.shop]]
-  name = "Boutique"
-  url = "shop.agnesdjafri.com"
-
   [[params.navlinks]]
   name = "Biographie"
   url = "about/"
@@ -57,6 +53,7 @@ googleAnalytics = ""
   url = "contact/"
 
   [params.social]
+  shopify       = "https://shop.agnesdjafri.com"
   instagram     = "https://www.instagram.com/agnesdjafri/"
   whatsapp      = "https://wa.me/590690502805"
   facebook      = "facebook.com/agnesdjafriart"

@@ -5,8 +5,8 @@
       <p class="sidebar-p">{{ . | safeHTML }}</p>
     {{ end }}
     <ul class="sidebar-menu">
-      {{ with .Site.Params.shop }}
-      <li><a href="{{ .url }}" class="shop">{{ .name }}</a></li>
+      {{ with .Site.Params.social.shop }}
+      <li><a href="{{ . }}" class="shop">{{ "Boutique" }}</a></li>
       {{ range .Site.Params.navlinks }}
         <li><a href="{{ absURL .url }}">{{ .name }}</a></li>
       {{ end }}
