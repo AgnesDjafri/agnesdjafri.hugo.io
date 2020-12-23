@@ -40,9 +40,12 @@ googleAnalytics = ""
   home = true
 
   [[params.navlinks]]
+  name = "Boutique"
+  url = "shop.agnesdjafri.com"
+
+  [[params.navlinks]]
   name = "Biographie"
   url = "about/"
-
 
 
  # [[params.navlinks]]
