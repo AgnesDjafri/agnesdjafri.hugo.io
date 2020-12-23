@@ -6,7 +6,7 @@
     {{ end }}
     <ul class="sidebar-menu">
       {{ with .Site.Params }}
-      <a href="{{ .shop }}" class="shop">Boutique</a>
+      <li><strong><a href="{{ .shop }}" class="shop">Boutique</a></strong></li>
       {{end}}
       {{ range .Site.Params.navlinks }}
         <li><a href="{{ absURL .url }}">{{ .name }}</a></li>

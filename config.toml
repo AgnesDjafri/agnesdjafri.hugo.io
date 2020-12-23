@@ -28,7 +28,7 @@ googleAnalytics = ""
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
   email = "contact@agnesdjafri.com"
-  shop  = "https://shop.agnesdjafri.com"
+  shop  = "http://shop.agnesdjafri.com"
 
  # Nav links in the side bar
  # [[params.navlinks]]
