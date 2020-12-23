@@ -39,7 +39,7 @@ googleAnalytics = ""
   url = "portfolio/"
   home = true
 
-  [[params.navlinks]]
+  [[params.shop]]
   name = "Boutique"
   url = "shop.agnesdjafri.com"
 
