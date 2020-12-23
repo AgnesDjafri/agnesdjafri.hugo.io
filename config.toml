@@ -52,8 +52,11 @@ googleAnalytics = ""
   name = "Contact"
   url = "contact/"
 
+  [params.shop]
+  name          = Boutique
+  url           = "https://shop.agnesdjafri.com"
+
   [params.social]
-  shopify       = "https://shop.agnesdjafri.com"
   instagram     = "https://www.instagram.com/agnesdjafri/"
   whatsapp      = "https://wa.me/590690502805"
   facebook      = "facebook.com/agnesdjafriart"
